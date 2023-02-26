@@ -78,11 +78,6 @@ this will allow you only to use the BOT so , no one can miss with your bot or tr
 ![image](https://user-images.githubusercontent.com/106902748/221428152-a8e7538d-add8-4277-bd6a-2d1e644fb6d4.png)
 
 
-Contributing:
-If you are interested in contributing to this project, please feel free to submit a pull request. Before doing so, please make sure to discuss your changes with the project maintainers.
-
-License:
-This project is licensed under the MIT license. See the LICENSE file for more details.
 
 
 Please note that trading is inherently risky and users should exercise caution when using this bot. 
