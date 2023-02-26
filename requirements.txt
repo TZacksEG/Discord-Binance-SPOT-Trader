@@ -1,0 +1,5 @@
+discord~=2.1.0
+configparser~=5.3.0
+binance~=0.3
+python-binance==1.0.17
+discord.py==2.1.1
