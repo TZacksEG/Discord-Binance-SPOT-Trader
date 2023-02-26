@@ -46,9 +46,9 @@ then make sure **message intent is active** and click on **RESET TOKEN**
 
 COPY THE TOKEN and add it to **discord-token** in config.ini file .
 
-then create a private discord server and use the bot 
+then create a private discord server , add the bot and start trading
 
-Features:
+## Features:
 
     it Open trades and save them into a database
     it Track PNL and current price
@@ -56,47 +56,17 @@ Features:
     it Show status of trades
     it Close deals
 
+
+
+## Commands:
+    
+    !buy <symbol without USDT> <trade value> - example : **!buy btc 1000**
+    !dca <symbol> <quantity> <price> - example : **!dca btc 2000**
+    !sell <symbol> - Close a specific symbol example : **!sell btc** this will sell all your position which is saved in database
+    !stats - Show the current status of all open trades
+
 ![image](https://user-images.githubusercontent.com/106902748/221428152-a8e7538d-add8-4277-bd6a-2d1e644fb6d4.png)
 
-The bot's stats include pairs, average entry price, total invested in the trade, total value now for the trade, UPNL in USD value, and UPNL in percentage.
-
-Getting Started:
-To use this bot, you will need to have an account on Binance's SPOT market. Once you have an account, you will need to generate an API key with "trade" permissions. Make sure to keep this key safe and not share it with anyone.
-
-Clone the repository:
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
-Create a virtual environment:
-python -m venv venv
-
-Activate the virtual environment:
-venv\Scripts\activate.bat (Windows)
-source venv/bin/activate (macOS/Linux)
-
-Install the requirements:
-pip install -r requirements.txt
-
-Set up the environment variables:
-
-    Create a .env file in the root directory of the project
-    Add the following environment variables:
-
-makefile
-
-DISCORD_TOKEN=<your discord token>
-BINANCE_API_KEY=<your binance api key>
-BINANCE_SECRET_KEY=<your binance secret key>
-
-Run the bot:
-python main.py
-
-Commands:
-
-    !buy <symbol> <quantity> <price> - Buy a specific symbol at a specific price
-    !sell <symbol> <quantity> <price> - Sell a specific symbol at a specific price
-    !close <symbol> - Close a specific symbol
-    !stats - Show the current status of all open trades
-    !help - Show a list of all available commands
 
 Contributing:
 If you are interested in contributing to this project, please feel free to submit a pull request. Before doing so, please make sure to discuss your changes with the project maintainers.
@@ -104,7 +74,10 @@ If you are interested in contributing to this project, please feel free to submi
 License:
 This project is licensed under the MIT license. See the LICENSE file for more details.
 
-Acknowledgments:
-Special thanks to the Binance API and the Discord API for making this project possible.
 
-Please note that trading is inherently risky and users should exercise caution when using this bot. The creators of this bot are not responsible for any losses incurred through its use.
+Please note that trading is inherently risky and users should exercise caution when using this bot. 
+I'm not responsible for any losses incurred through its use.
+
+### support
+
+https://discord.gg/RWtT7Nx9jh
