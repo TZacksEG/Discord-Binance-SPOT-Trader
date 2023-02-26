@@ -70,8 +70,8 @@ this will allow you only to use the BOT so , no one can miss with your bot or tr
 
 ## Commands:
     
-    !buy <symbol without USDT> <trade value> - example : **!buy btc 1000**
-    !dca <symbol> <quantity> <price> - example : **!dca btc 2000**
+    !buy <symbol without USDT> <trade value> - example : **!buy btc 1000** -- it will buy BTC market order for $1000
+    !dca <symbol> <trade value> - example : **!dca btc 2000**  -- it will DCA BTC at market order for $2000
     !sell <symbol> - Close a specific symbol example : **!sell btc** this will sell all your position which is saved in database
     !stats - Show the current status of all open trades
 
