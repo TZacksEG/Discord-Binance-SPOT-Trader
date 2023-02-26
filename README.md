@@ -50,6 +50,14 @@ COPY THE TOKEN and add it to **discord-token** in config.ini file .
 
 then create a private discord server , add the bot and start trading
 
+once your bot is up send **!info** copy userid 
+
+![image](https://user-images.githubusercontent.com/106902748/221430020-9328da53-b2c4-453e-a498-9213e07e7a10.png)
+
+add this to <allowed> in **config.ini** and restart your discord bot 
+
+this will allow you only to use the BOT so , no one can miss with your bot or trades
+
 ## Features:
 
     it Open trades and save them into a database
