@@ -1,5 +1,7 @@
 Welcome to the README for the Binance Spot Market Trading Discord Bot! 
 
+### Trade on Binance's SPOT market directly from your Discord server with your own discord bot. 
+
 ## WHY it was created ?
 _The Binance SPOT market does not have a built-in interface or a way to track trades, so this bot was created to fill that gap._
 
